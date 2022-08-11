@@ -28,3 +28,12 @@ var Numbers = [1, 2, 3, 4, 5]
     for i in Numbers {
         print(i)
     }
+
+for o in Numbers {
+    if o % 2 == 0 {
+        print("This is even number \(o)")
+    }
+    else {
+        print("This is odd number \(o)")
+    }
+}
